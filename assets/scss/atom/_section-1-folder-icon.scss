@@ -1,0 +1,17 @@
+.section-1__part-2-img{
+    width: 400px;
+}
+
+@include tablet{
+    .section-1__part-2-img{
+        width: 175px;
+        margin-top: 110px;
+        margin-left: -15px;
+    }
+}
+@include mobile{
+    .section-1__part-2-img{
+        width: 275px;
+        margin-left: 62px;
+    }
+}

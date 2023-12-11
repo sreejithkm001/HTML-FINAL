@@ -1,0 +1,26 @@
+.demo{
+    width: auto;
+    margin: 50px;
+
+    &__title{
+        font-size: 28px;
+        font-weight: 600;
+        color: $colour-title;
+        padding: 10px;
+    }
+
+
+}
+
+@include mobile{
+    .demo{
+        width: auto;
+        text-align: center;
+    }
+}
+@include tablet{
+    .demo{
+        width: auto;
+        text-align: center;
+    }
+}

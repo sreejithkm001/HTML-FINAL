@@ -1,0 +1,67 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  &__left {
+    margin-top: 15px;
+    padding-left: $spacer-6;
+    & i {
+      padding-right: 10px;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__right {
+    padding-right: $spacer-6;
+    &__dot {
+      color: aqua;
+      font-size: 30px;
+    }
+    &__btn {
+      margin-top: 5px;
+      padding: 1px 5px 0;
+      background-color: $colour-title;
+      border: 0;
+      width: 150px;
+      color: $colour-white;
+    }
+    & i {
+      padding-right: 10px;
+    }
+  }
+}
+
+@include mobile {
+  .topbar__right__btn {
+    width: 160px;
+    padding: 5px;
+    margin-left: 0px;
+  }
+  .topbar__right {
+    padding: 13px;
+  
+  span {
+    display: none;
+  }
+}
+  .topbar__left {
+    margin-top: 20px;
+  }
+}
+@include tablet {
+  .topbar__right {
+    padding: 13px;
+  }
+  .topbar__right span {
+    display: none;
+  }
+  .topbar__right__btn {
+    width: 150px;
+    padding: 5px;
+    margin-left: 270px;
+  }
+  .topbar__left {
+    margin-top: 10px;
+  }
+}

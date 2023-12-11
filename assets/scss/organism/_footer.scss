@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: $spacer-4;
+    background-color: $colour-grey;
+}
+
+@include tablet{
+    .footer{
+        flex-wrap: wrap;
+    }
+}
+
+@include mobile{
+    .footer{
+        flex-wrap: wrap;
+    }
+}

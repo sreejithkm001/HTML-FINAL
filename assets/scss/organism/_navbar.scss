@@ -1,0 +1,13 @@
+.navbar{
+    &-brand{
+        padding-left: $spacer-2;
+    }
+
+    &-custom{
+        background-color:rgb(245, 245, 245);
+    }
+
+    &-nav{
+        margin-left: auto;
+    }
+}

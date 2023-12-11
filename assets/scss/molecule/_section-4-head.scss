@@ -1,0 +1,13 @@
+.section-4__head{
+    text-align: center;
+    & h2{
+        font-size: 24px;
+        font-weight: 600;
+        color: $colour-title;
+        text-transform: capitalize;
+    }
+
+    & p{
+        font-size: 14px;
+    }
+}

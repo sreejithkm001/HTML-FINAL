@@ -1,0 +1,15 @@
+.section-2__part-2{
+    display: flex;
+    gap: $spacer-6;
+}
+
+@include tablet{
+    .section-2__part-2{
+        flex-direction: column;
+    }
+}
+@include mobile{
+    .section-2__part-2{
+        flex-direction: column;
+    }
+}
